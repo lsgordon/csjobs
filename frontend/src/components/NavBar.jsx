@@ -11,6 +11,9 @@ const NavBar = () => {
         <Link to="/" className={isActive('/')}>Home</Link>
         <Link to="/new-grad" className={isActive('/new-grad')}>New Grad</Link>
         <Link to="/internships" className={isActive('/internships')}>Internships</Link>
+        <Link to="/about" className={isActive('/about')}>About</Link>
+        <Link to="/login" className={isActive('/login')}>Login</Link>
+        <Link to="/search" className={isActive('/search')}>Search</Link>
       </div>
     </nav>
   );
