@@ -62,7 +62,7 @@ def analyze_job_url(url: str) -> dict:
     5. Does it explicitly mention visa sponsorship?
     6. Primary languages/tools mentioned (e.g. Python, React).
     7. Role Category.
-    8. Salary Range if mentioned, normalized to a monthly USD figure. Use the middle of the range if given, else "N/A".
+    8. Salary Range if mentioned, normalized to a monthly USD figure. Use the middle of the range if given, else "N/A". Format with no currency symbols, just a single integer. e.g "7000" for $7,000/month.
     9. Core Posting, 
     is this an extremely high headcount/core role in the CS recruiting cycle that most people who 
     recruit seriously will apply to? (Y/N) For example, "Software Engineer I" at 
